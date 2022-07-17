@@ -65,6 +65,13 @@ main {
   margin-bottom: auto;
 }
 
+.winner {
+  font-size: 4rem;
+  font-weight: 300;
+  color: #c7365f;
+  margin-bottom: auto;
+}
+
 .player--active {
   background-color: rgba(255, 255, 255, 0.4);
 }
@@ -299,6 +306,10 @@ main {
   .btn--hold {
     top: 46.1rem;
   }
+
+  .winner {
+    font-size: 2.3rem;
+  }
 }
 
 @media (max-width: 610px) {
@@ -356,6 +367,10 @@ main {
   .modal p {
     font-size: 1.2rem;
     line-height: 1.2;
+  }
+
+  .winner {
+    font-size: 1.4rem;
   }
 }
 
