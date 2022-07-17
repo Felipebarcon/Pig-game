@@ -302,10 +302,6 @@ main {
 }
 
 @media (max-width: 610px) {
-  main {
-    width: 50rem
-  }
-
   body {
     height: 100vh;
     background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
