@@ -185,3 +185,101 @@ h1 {
 .hidden {
   display: none;
 }
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 1200px) {
+  main {
+    width: 60rem;
+  }
+
+  .name {
+    font-size: 2.4rem;
+  }
+
+  .current {
+    width: 100%;
+    padding: 1.6rem 1rem 1.6rem 1rem;
+  }
+
+  .current-label {
+    font-size: 1.2rem;
+  }
+
+  .current-score {
+    font-size: 1.2rem;
+  }
+
+  .btn {
+    font-size: 1.2rem;
+    padding: 0.7rem 1.6rem;
+  }
+
+  .btn::first-letter {
+    font-size: 2.4rem;
+    display: inline-block;
+    margin-right: 0.7rem;
+  }
+
+  .btn--new {
+    top: 4rem;
+  }
+
+  .btn--roll {
+    top: 39.3rem;
+  }
+
+  .btn--hold {
+    top: 46.1rem;
+  }
+}
+
+@media (max-width: 610px) {
+
+
+  main {
+    width: 50rem
+  }
+
+  body {
+    background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+  }
+
+  h1 {
+    font-size: 1.6rem;
+  }
+  .name {
+    font-size: 1.4rem;
+  }
+
+  .current {
+    width: 100%;
+    padding: 1.6rem 1rem 1.6rem 1rem;
+  }
+
+  .current-label {
+    font-size: 1.2rem;
+  }
+
+  .current-score {
+    font-size: 1.2rem;
+  }
+
+  .btn {
+    font-size: 1.2rem;
+  }
+
+  .btn::first-letter {
+    font-size: 1.6rem;
+  }
+
+  .dice {
+    height: 8rem;
+  }
+
+  .score {
+    font-size: 4rem;
+  }
+
+
+}
