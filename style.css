@@ -235,7 +235,7 @@ main {
   padding: 6rem;
   border-radius: 5px;
   box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
-  z-index: 10;
+  z-index: 9999;
 }
 
 .overlay {
@@ -302,13 +302,12 @@ main {
 }
 
 @media (max-width: 610px) {
-
-
   main {
     width: 50rem
   }
 
   body {
+    height: 100vh;
     background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
   }
 
@@ -346,6 +345,11 @@ main {
 
   .score {
     font-size: 4rem;
+  }
+
+  .show-modal {
+    left: 50%;
+    transform: translateX(-60%);
   }
 
   .modal h2 {
